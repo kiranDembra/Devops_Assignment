@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+#about-me {
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#filter-container {
+    margin-bottom: 20px;
+}
+
+#filter {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#project-list, #education-list {
+    list-style: none;
+    padding: 0;
+}
+
+#project-list li, #education-list li {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#project-list li:hover, #education-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
